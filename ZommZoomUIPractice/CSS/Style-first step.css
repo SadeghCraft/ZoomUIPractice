@@ -1,0 +1,356 @@
+@font-face {
+    font-family: "IranSans";
+    src: url('Font/IranianSans.ttf') format("truetype"),
+        url('Font/Sansa4fran3.ttf') format("truetype");
+}
+
+body {
+    font-family: "IranSans";
+}
+
+.dark-theme {
+    transition: all .9s ease-in;
+    background-color: rgb(20, 20, 20);
+    filter: invert(-1) hue-rotate(180deg);
+    color: white;
+}
+
+img {
+    filter: invert(-1) hue-rotate(180deg);
+}
+
+.container {
+    direction: rtl;
+}
+
+.navbar {
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #1d1d1d;
+}
+
+.navbar-brand {
+    direction: rtl;
+}
+
+.nav-link {
+    font-family: "IranSans";
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:hover {
+    font-family: "IranSans";
+    transition: all .9s ease;
+    font-size: 15px;
+    color: rgb(219, 219, 219);
+}
+
+.nav-link:first-child {
+    color: white;
+}
+
+#icon00 {
+    cursor: pointer;
+    width: 30px;
+}
+
+.icon0 {
+    margin: 2% 0% 2% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.h-line {
+    color: white;
+    opacity: 0.2;
+}
+
+#more-icon {
+    color: white;
+    margin-top: 0.5%;
+}
+
+.nav-item-icon {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0% 1% 0% 1%;
+    font-size: 20px;
+}
+
+.nav-link-icon {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link-icon:hover {
+    transition: all .5s ease;
+    color: rgb(0, 176, 207)
+}
+
+.div-icon {
+    margin-right: 27%;
+}
+
+.img-fluid {
+    margin-top: 1%;
+}
+
+.img-fluid:nth-child(2) {
+    width: 300px;
+}
+
+
+.d-flex {
+    direction: rtl;
+    margin-top: 3%;
+    /* flex-wrap: wrap; */
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+    padding: 0% 16% 0% 4%;
+}
+
+.f-right {
+    float: right;
+    justify-content: space-evenly;
+    padding: 0% 2% 0% 2%;
+}
+
+.f-left {
+    float: left;
+    justify-content: space-evenly;
+    padding: 0% 2% 0% 2%;
+}
+
+.bottom-sp {
+    background-color: rgb(194, 194, 194);
+
+    border-radius: 9px;
+    font-size: smaller;
+    padding: 1px 7px 1px 0px;
+    justify-content: space-evenly;
+    margin: 0% 1% 0% 1%;
+}
+
+.bottom-sp:first-child {
+    margin-right: 1%;
+}
+
+.circle {
+    text-align: center;
+    margin-left: -7px;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 29px;
+    width: 29px;
+    color: white;
+    background-color: rgb(131, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fs-2 {
+    padding-right: 5%;
+}
+
+.fs-6 {
+    padding-right: 11%;
+}
+
+.fs-4 {
+    color: rgb(158, 158, 158);
+}
+
+.lh-lg {
+    font-size: 14px;
+    margin-top: 20%;
+    padding-right: 10%;
+}
+
+#battry-ram {
+    margin-left: 8%;
+}
+
+.p-ram {
+    padding-left: 9%;
+}
+
+.flex-fill:nth-child(3) {
+    text-align: center;
+}
+
+.round-circle {
+    font-size: 12px;
+    text-align: justify-all;
+    padding: 5%;
+    background: #5e0000;
+    color: #fff;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+#d-f3 {
+    margin-top: 60%;
+}
+
+.fa-mobile-screen-button {
+    font-size: 22px;
+    color: darkred;
+}
+
+.fa-camera {
+    font-size: 22px;
+    color: darkred;
+}
+
+#div-below-3 {
+    color: black;
+    margin-top: 14%;
+    justify-content: space-evenly;
+    padding: 0% 1% 0% 0%;
+
+}
+
+.justify-content-around {
+    margin: 2%;
+}
+
+#core-8 {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 66px;
+    font-size: 30px;
+    background-color: #00d338 !important;
+    color: #fff;
+}
+
+#core-8-1 {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 30px;
+    background-color: #00d338 !important;
+    color: #fff;
+    margin-top: 18%;
+}
+
+.container-1 {
+    margin-top: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.nav {
+    direction: rtl;
+    background-color: #f2f2f2;
+}
+
+.nav-A {
+    color: black;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 1% 4% 1% 4%;
+}
+
+.nav-A:hover {
+    color: #5e0000;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+.nav-A:first-child {
+    color: black;
+    transition: all .5s ease;
+}
+
+.nav-A:nth-child(2) {
+    background-color: darkred;
+    color: white;
+}
+
+.fa-battery-full, .fa-memory {
+
+    font-size: 22px;
+    color: darkred;
+}
+
+@media (max-width:992px) {
+    .navbar-nav {
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    #more-icon {
+        display: none;
+    }
+
+    .div-icon {
+        display: none;
+    }
+
+    .h-line {
+        display: none;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .d-flex {
+        margin-top: 10% 0% 0% 0%;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .container-1 {
+        margin-top: 0%;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+
+    .flex-fill:nth-child(3) {
+        margin-right: 26%;
+    }
+}
+
+@media (max-width:1229px) {
+    #d-f3 {
+        margin-top: 1%;
+    }
+
+    .bottom-sp {
+        display: none;
+    }
+
+    .container-1 {
+        margin-top: 0%;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+
+    .flex-fill:nth-child(3), :nth-child(4) {
+        margin-right: 0%;
+    }
+
+    .bottom-sp {
+        justify-content: space-evenly;
+        margin: 0% 1% 0% 5%;
+    }
+
+    .nav-A {
+        color: black;
+        font-size: 12px;
+        justify-content: space-between;
+        padding: 1% 4.5% 1% 4.5%;
+    }
+}
