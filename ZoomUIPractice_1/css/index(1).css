@@ -1,0 +1,556 @@
+@font-face {
+    font-family: "IranSans";
+    src: url('./font/IranianSans.ttf') format("truetype"),
+        url('./font/Sansa4fran3.ttf') format("truetype");
+}
+
+body {
+    font-family: "IranSans";
+    background-color: #f0f0f0;
+}
+
+.container-01 { 
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.nav-01 {
+    background-color: rgb(39, 39, 39);
+    max-width: 99%;
+    padding: 1%;
+    direction: rtl;
+    /* border-radius: 10px 10px 0px 0px; */
+}
+
+.nav-01 ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.nav-01 ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    transition: all .6s ease;
+}
+
+.nav-01 ul li a:hover {
+    text-decoration: overline;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-01 ul li:first-child {
+    padding-right: 5%;
+    font-size: 14px;
+}
+
+.nav-01 li:nth-child(8) {
+    padding-right: 27%;
+}
+
+.nav-02 {
+    
+    width: 95%;
+    direction: rtl;
+    text-align: right;
+    padding-right: 5%;
+    background-color: rgb(94, 0, 131);
+    max-width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nav-02 ul li {
+    justify-content: space-between;
+    padding: 1%;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-02 ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    transition: all .6s ease;
+}
+
+.nav-02 ul li:hover:not(:nth-child(10), :nth-child(11), :last-child) {
+    background-color: rgb(0, 102, 102);
+    border-radius: 10px;
+    transition: all .6s ease;
+}
+
+.nav-02 ul:first-child,
+:nth-child(2) li a i {
+    color: crimson;
+    font-size: 18px;
+}
+
+.nav-02 ul:first-child,
+:nth-child(2) li a i:hover {
+    color: white;
+    transition: .5s ease;
+}
+
+.nav-02 li:nth-child(10) {
+    padding-right: 35%;
+    color: rgb(182, 0, 112);
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(10):hover {
+    padding-right: 35%;
+    color: white;
+}
+
+.nav-02 li:nth-child(10),
+:nth-child(11),
+:last-child {
+    color: rgb(248, 0, 124);
+    transition: all .7s ease;
+}
+
+/* .nav-02 li:nth-child(10),
+:nth-child(11),
+:last-child:hover {
+    color: rgb(0, 0, 0);
+} */
+
+.nav-02 li:nth-child(3) div {
+    position: absolute;
+    z-index: 9;
+    padding: 2%;
+    right: 195px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    border-radius: 5px;
+}
+
+
+.nav-02 li:nth-child(3) div a {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-02 li:nth-child(3) div a:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 2%;
+    border-radius: 1px;
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(3):hover div {
+    display: block;
+}
+
+.nav-02 li:nth-child(4) div {
+    position: absolute;
+    z-index: 8;
+    padding: 2%;
+    right: 225px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    border-radius: 5px;
+}
+
+
+.nav-02 li:nth-child(4) div a {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-02 li:nth-child(4) div a:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 2%;
+    border-radius: 1px;
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(4):hover div {
+    display: block;
+}
+
+.nav-02 li:nth-child(5) div {
+    position: absolute;
+    z-index: 9;
+    padding: 2%;
+    right: 295px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    border-radius: 5px;
+}
+
+
+.nav-02 li:nth-child(5) div a {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-02 li:nth-child(5) div a:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 2%;
+    border-radius: 1px;
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(5):hover div {
+    display: block;
+}
+
+.nav-02 li:nth-child(6) div {
+    position: absolute;
+    z-index: 9;
+    padding: 2%;
+    right: 360px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    border-radius: 5px;
+}
+
+
+.nav-02 li:nth-child(6) div a {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-02 li:nth-child(6) div a:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 2%;
+    border-radius: 1px;
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(6):hover div {
+    display: block;
+}
+
+.nav-02 li:nth-child(7) div {
+    position: absolute;
+    z-index: 9;
+    padding: 2%;
+    right: 435px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    border-radius: 5px;
+}
+
+
+.nav-02 li:nth-child(7) div a {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-02 li:nth-child(7) div a:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 2%;
+    border-radius: 1px;
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(7):hover div {
+    display: block;
+}
+
+.nav-02 li:nth-child(8) div {
+    position: absolute;
+    z-index: 9;
+    padding: 2%;
+    right: 505px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    border-radius: 5px;
+}
+
+
+.nav-02 li:nth-child(8) div a {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-02 li:nth-child(8) div a:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 2%;
+    border-radius: 1px;
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(8):hover div {
+    display: block;
+}
+
+.nav-02 li:nth-child(9) div {
+    position: absolute;
+    z-index: 9;
+    padding: 2%;
+    right: 635px;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    border-radius: 5px;
+}
+
+
+.nav-02 li:nth-child(9) div a {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-02 li:nth-child(9) div a:hover {
+    background-color: rgb(51, 51, 51);
+    padding: 2%;
+    border-radius: 1px;
+    transition: all .7s ease;
+}
+
+.nav-02 li:nth-child(9):hover div {
+    display: block;
+}
+
+#ad-01 {
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-right: 10%;
+}
+
+.flex-container {
+    justify-content: space-between;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-1 {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#f1-div {
+    height: 200px;
+    background-color: #e2e2e2;
+}
+
+#f1-div h4 {
+    padding: 5% 4% 0% 0%;
+    text-align: right;
+    color: black;
+}
+
+#f1-div-2 {
+    font-size: 12px;
+    color: black;
+    text-align: right;
+    padding-top: 5%;
+    margin: 2%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+#f1-div-2 img {
+    padding: 3%;
+    float: right;
+    border-radius: 15px;
+    height: 70px;
+}
+
+#f1-div-3 {
+    height: 200px;
+    background-color: #ffffff;
+    height: 955px;
+}
+
+#f1-div-3 h4 {
+    background-color: #e0e0e0;
+    padding: 5% 4% 4% 0%;
+    text-align: right;
+    color: black;
+}
+
+.f1-span {
+    font-size: 11px;
+    padding: 5%;
+    color: black;
+    text-align: center;
+    float: right;
+}
+
+#f1-div-3 hr {
+    opacity: 0.3;
+}
+
+.f1-span img {
+    padding: 2%;
+    float: right;
+    border-radius: 10px;
+    height: 70px;
+}
+
+.ad-img {
+    margin: 1%;
+    width: 300ox;
+    height: 250px;
+}
+
+.flex-2 {
+    
+    width: 720px;
+    background-color: rgb(255, 255, 255);
+}
+
+#f2-d1 p:first-child {
+    text-align: right;
+    padding: 1%;
+    color: rgb(41, 41, 41);
+    font-size: 12px;
+}
+
+#f2-d1 p:nth-child(2) {
+    text-align: left;
+    color: white;
+    padding-left: 2%;
+    margin-left: 2%;
+    width: 27px;
+    height: 29px;
+    background-color: black;
+}
+
+#f2-d1 h2 {
+    text-align: right;
+    padding: 2%;
+    color: rgb(0, 0, 0);
+
+}
+
+#f2-d2:not(img) {
+    text-align: right;
+    font-size: 12px;
+    color: black;
+}
+
+#f2-d2 img {
+    /* padding-top: 2%;
+    padding-right: 2%; */
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+#img01 {
+    width: 720px;
+    margin-top: 7%;
+}
+
+.p01 {
+    text-align: right;
+    color: black;
+    font-size: 13px;
+    margin: 3% 3% 0% 2%;
+}
+
+.p02 {
+    text-align: right;
+    color: rgb(194, 0, 0);
+    font-size: 13px;
+    margin: 1% 3% 0% 2%;
+}
+
+#f2-d3 img {
+    width: 690px;
+    margin: 5% 2% 0% 2%;
+}
+
+#p-u1 {
+    float: right;
+    background-color: rgb(148, 0, 0);
+    width: 34px;
+    margin-right: 2%;
+    margin-top: 7%;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.grid-1 {
+margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+        "img1 img2 img3"
+        "img4 img5 img6";
+    padding: 3%;
+    color: black;
+    font-size: 12px;
+}
+
+
+.img-opt {
+    padding-bottom: 10%;
+}
+
+.img-opt:first-child {
+    grid-area: img1;
+}
+
+.img-opt:nth-child(2) {
+    grid-area: img2;
+}
+
+.img-opt:nth-child(3) {
+    grid-area: img3;
+}
+
+.img-opt:nth-child(4) {
+    grid-area: img4;
+}
+
+.img-opt:nth-child(5) {
+    grid-area: img5;
+}
+
+.img-opt:nth-child(6) {
+    color: black;
+    grid-area: img6;
+}
+
+.flex-3 {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.flex-3-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-sub3 {
+    width: 250px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 7%;
+}
+
+.flex-sub3 img {
+    padding-bottom: 2%;
+    width: 250px;
+    height: 140px;
+}
